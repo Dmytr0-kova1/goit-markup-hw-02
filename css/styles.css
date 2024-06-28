@@ -12,19 +12,6 @@ a {
   text-decoration: none;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 /* --- Headerb --- */
 
 .logo {
@@ -115,7 +102,8 @@ a {
   color: #434455;
 }
 
-.team-title {
+.team-title,
+.portfolio-title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -160,12 +148,6 @@ a {
 }
 
 .portfolio-title {
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-  color: #2e2f42;
 }
 
 .portfolio-list {
